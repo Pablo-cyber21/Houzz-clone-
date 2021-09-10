@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation {
+  border: 3px solid red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-content1 {
+  border: 2px solid black;
+  padding: 0.77em 0em;
+  text-align: center;
+}
+
+input {
+  width: 50%;
+  padding: 0.55em;
+}
+
+button {
+  margin-left: -5px;
+  padding: 0.55em;
+}
+
+.help {
+  text-decoration: none;
+  margin: 15px;
+  color: black;
+}
+
+.nav-content2 {
+  border: 2px solid blueviolet;
+}
