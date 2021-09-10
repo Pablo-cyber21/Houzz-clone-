@@ -5,12 +5,12 @@
 }
 
 .navigation {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav-content1 {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   padding: 0.77em 0em;
   text-align: center;
 }
@@ -27,10 +27,21 @@ button {
 
 .help {
   text-decoration: none;
-  margin: 15px;
   color: black;
+  margin-left: 5px;
 }
 
 .nav-content2 {
-  border: 2px solid blueviolet;
+  /* border: 2px solid blueviolet; */
+  text-transform: uppercase;
+  font-weight: 550;
+  font-size: 1em;
+  text-align: center;
+}
+
+.services {
+  display: block;
+  margin-top: 5px;
+  color: black;
+  text-decoration: none;
 }
