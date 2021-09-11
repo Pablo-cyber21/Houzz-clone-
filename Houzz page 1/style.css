@@ -4,9 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: lightblue;
+}
+
 .navigation {
   /* border: 3px solid red; */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  padding-bottom: 1em;
 }
 
 .nav-content1 {
@@ -20,9 +26,13 @@ input {
   padding: 0.55em;
 }
 
-button {
+.button-search {
   margin-left: -5px;
   padding: 0.55em;
+}
+
+.search-link {
+  text-decoration: none;
 }
 
 .help {
@@ -43,5 +53,29 @@ button {
   display: block;
   margin-top: 5px;
   color: black;
+  text-decoration: none;
+}
+
+.side-bar {
+  margin-top: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid crimson;
+  margin: 20px 30px;
+  padding: 2em;
+  background-color: white;
+}
+
+.Styles {
+  margin-top: 20px;
+}
+.Rooms {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.style {
+  display: block;
+  margin-top: 10px;
   text-decoration: none;
 }
